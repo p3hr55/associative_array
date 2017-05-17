@@ -1,0 +1,36 @@
+Memory Map on 500,000 Records:
+Run #1: 
+Real Time: 00:00:01.032
+User Time: 00:00:01.015
+Sys Time:  00:00:00.015
+
+Run #2:
+Real Time: 00:00:01.114
+User Time: 00:00:01.078
+Sys Time:  00:00:00.031
+
+Run #3:
+Real Time: 00:00:01.081
+User Time: 00:00:01.031
+Sys Time:  00:00:00.000
+
+
+Reading in 2 Records at a time (Non-Memory Map) on 500,000 Records:
+Run #1:
+Real Time: 00:00:45.535
+User Time: 00:00:09.125
+Sys Time:  00:00:35.796
+
+Run #2:
+Real Time: 00:00:45.381
+User Time: 00:00:08.875
+Sys Time:  00:00:35.875
+
+Run #3:
+Real Time: 00:00:45.538
+User Time: 00:00:09.328
+Sys Time:  00:00:35.234
+
+
+Conclusion:
+A memory map will speed up sorts by about 4500%.
